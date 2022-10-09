@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    background-image: url("/Union.svg"), url("/blob1.svg"), url("/Multitasking-rafiki.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed, fixed, fixed;
+    background-position:  40px 40px, -150px -40px, 900px 150px;
+    background-size: 70px 30px, 800px 750px, 500px 500px;
+    margin: 40px auto auto 40px;
+}
+
+p {
+    color: white;
+    font-family: "Calibri Light";
+    font-size: 36px;
+    margin: 180px auto auto 30px;
+}
+
+button {
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color: #0D264A;
+    text-align: center;
+    padding: 16px 40px;
+    display: inline-block;
+    font-size: 24px;
+    font-family: "Calibri Light";
+    margin: 30px auto auto 30px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color: white;
+    border-width: 5px;
+}
+
+.topnav {
+    font-family: "Calibri Light";
+    margin: 0px auto auto 200px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #0D264A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration: underline;
+}
